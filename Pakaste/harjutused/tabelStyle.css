@@ -1,0 +1,343 @@
+/* Table id=lihtne */
+#lihtne{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    background-color: blue;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#lihtne td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#lihtne tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+
+#lihtne tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+
+#lihtne tr:nth-child(1) td:nth-child(2){
+    background-color: yellow;
+}
+
+#lihtne tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+
+#keeruline{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    background-color: blue;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#keeruline td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#keeruline tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+
+#keeruline tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+
+#keeruline tr:nth-child(1) td:nth-child(2){
+    background-color: yellow;
+}
+
+#keeruline tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+
+#keeruline2{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    background-color: blue;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#keeruline2 td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#keeruline2 tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+
+#keeruline2 tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+
+#keeruline2 tr:nth-child(1) td:nth-child(2){
+    background-color: yellow;
+}
+
+#keeruline2 tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+
+#keeruline3{
+    width: 30%;
+    border: 1px solid black;
+    height: 200px;
+    background-color: blue;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#keeruline3 td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#keeruline3 tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+
+#keeruline3 tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+
+#keeruline3 tr:nth-child(1) td:nth-child(2){
+    background-color: yellow;
+}
+
+#keeruline3 tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+
+#keeruline3 tr:nth-child(2) td:nth-child(3){
+    background-color: purple;
+}
+#keeruline3 tr:nth-child(3) td:nth-child(2){
+    background-color: orange;
+}
+
+#keeruline3 tr:nth-child(3) td:nth-child(1){
+    background-color: pink;
+}
+
+#keeruline3 tr:nth-child(4) td:nth-child(1){
+    background-color: cyan;
+}
+
+#keeruline4{
+    width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    background-color: blue;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#keeruline4 td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#keeruline4 tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+
+#keeruline4 tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+
+#keeruline3 tr:nth-child(1) td:nth-child(2){
+    background-color: yellow;
+}
+
+#keeruline4 tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+
+#keeruline4 tr:nth-child(2) td:nth-child(3){
+    background-color: purple;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(2){
+    background-color: orange;
+}
+
+#keeruline4 tr:nth-child(3) td:nth-child(1){
+    background-color: pink;
+}
+
+#keeruline4 tr:nth-child(4) td:nth-child(1){
+    background-color: cyan;
+}
+
+#keeruline4 tr:nth-child(3) td:nth-child(1){
+    background-color: hotpink;
+}
+
+#keeruline4 tr:nth-child(3) td:nth-child(3){
+    background-color: khaki;
+}
+
+#keeruline4 tr:nth-child(4) td:nth-child(2){
+    background-color: brown;
+}
+
+#keeruline4 tr:nth-child(5) td:nth-child(1){
+    background-color: orangered;
+}
+
+#keeruline4 tr:nth-child(6) td:nth-child(1){
+    background-color: greenyellow;
+}
+
+#ülessanne{
+    width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    background-color: blue;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#ülessanne td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+#ülessanne tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+
+#ülessanne tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+
+#ülessanne tr:nth-child(1) td:nth-child(2){
+    background-color: yellow;
+}
+
+#ülessanne tr:nth-child(2) td:nth-child(1){
+    background-color: green;
+}
+
+#ülessanne tr:nth-child(2) td:nth-child(3){
+    background-color: purple;
+}
+#ülessanne tr:nth-child(3) td:nth-child(2){
+    background-color: orange;
+}
+
+#ülessanne tr:nth-child(3) td:nth-child(1){
+    background-color: pink;
+}
+
+#ülessanne tr:nth-child(4) td:nth-child(1){
+    background-color: cyan;
+}
+
+#ülessanne tr:nth-child(3) td:nth-child(1){
+    background-color: hotpink;
+}
+
+#ülessanne tr:nth-child(3) td:nth-child(3){
+    background-color: khaki;
+}
+
+#ülessanne tr:nth-child(4) td:nth-child(2){
+    background-color: brown;
+}
+
+#ülessanne tr:nth-child(5) td:nth-child(1){
+    background-color: orangered;
+}
+
+#ülessanne tr:nth-child(6) td:nth-child(1){
+    background-color: greenyellow;
+}
+
+#bonus{
+    width: 300px;
+    height: 200px;
+    border-collapse: collapse; /* Üks joon borderis */
+}
+
+
+#bonus td{
+    text-align: center;
+}
+
+#bonus tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(3) td:nth-child(3){
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(4) td:nth-child(4){
+    background-color: green;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(5) td:nth-child(5){
+    background-color: purple;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(1) td:nth-child(5){
+    background-color: red;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(2) td:nth-child(4){
+    background-color: blue;
+    border: 2px solid black;
+}
+
+
+
+#bonus tr:nth-child(4) td:nth-child(2){
+    background-color: green;
+    border: 2px solid black;
+}
+
+#bonus tr:nth-child(5) td:nth-child(1){
+    background-color: purple;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
