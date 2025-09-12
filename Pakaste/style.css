@@ -11,6 +11,16 @@ header, footer{
     padding:0%; /* vahe teksti ja piiri vahel*/
 }
 
+footer#default{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer#eriline{
+
+}
+
 nav ul{
     list-style-type:none;
     text-align:center;
@@ -45,5 +55,130 @@ nav li a{
     border-left: 4pt solid grey;
     border-radius: 15px;
     padding: 10px;
+}
+
+/* Section */
+section#osa1{
+    width: 40%;
+    border-right: 2px solid #3700ff;
+    border-bottom: 1px solid #0048ff;
+    border-radius: 60px;
+    padding: 2%;
+}
+section#osa1 h3{
+    text-align: center;
+    background: #0066ff;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+section#osa2{
+    width: 40%;
+    border-right: 2px solid #002aff;
+    border-bottom: 1px solid #009dff;
+    border-radius: 60px;
+    padding: 2%;
+}
+section#osa2 h3{
+    text-align: center;
+    background: #00eaff;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+section#osa3{
+    width: 40%;
+    border-right: 2px solid #00ffbb;
+    border-bottom: 1px solid #00ff3c;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+section#osa3 h3{
+    text-align: center;
+    background: #00ffbb;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+section#pildigaleeri{
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    border-right: 2px solid #3700ff;
+    border-bottom: 1px solid #0048ff;
+    border-radius: 60px;
+    padding: 2%;
+}
+section#pildigaleeri h3{
+    text-align: center;
+    background: #00ffbb;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+section#video{
+    display: inline-block;
+    width: 600px;
+    height: 480px;
+    border-right: 2px solid #3700ff;
+    border-bottom: 1px solid #0048ff;
+    border-radius: 60px;
+    padding: 2%;
+}
+section#video h3{
+    text-align: center;
+    background: #00ffbb;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+section#muusika{
+    display: inline-block;
+    width: 450px;
+    height: 375px;
+    border-right: 2px solid #3700ff;
+    border-bottom: 1px solid #0048ff;
+    border-radius: 60px;
+    padding: 2%;
+}
+section#muusika h3{
+    text-align: center;
+    background: #00ffbb;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+section#kaart{
+    display: inline-block;
+    width: 600px;
+    height: 480px;
+    border-right: 2px solid #3700ff;
+    border-bottom: 1px solid #0048ff;
+    border-radius: 60px;
+    padding: 2%;
+}
+section#kaart h3{
+    text-align: center;
+    background: #00ffbb;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
 }
 
