@@ -1,0 +1,62 @@
+#tabel{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+#tabel tr, td{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+h3 {
+    width: 40%;
+    border-right: 2px solid #00ffbb;
+    border-bottom: 1px solid #00ff3c;
+    border-radius: 60px;
+    padding: 2%;
+    text-align: center;
+}
+h2 {
+    width: 40%;
+    border-right: 2px solid #008cff;
+    border-bottom: 1px solid #0059ff;
+    border-radius: 60px;
+    padding: 2%;
+    text-align: center;
+}
+h1 {
+    width: 40%;
+    border-right: 2px solid #008cff;
+    border-bottom: 1px solid #0059ff;
+    border-radius: 60px;
+    padding: 2%;
+    text-align: center;
+}
+
+#sisukord{
+    width: 60%;
+    font-weight: bold;
+}
+p{
+    color:#ff4500;
+    width: 30%;
+    border: #000000 solid 1px;
+
+}
+
+#tabel caption{
+    text-align: center;
+    font-weight: bold;
+    color: #fffd70;
+}
+ol{
+    color: #63639e;
+    font-weight: bold;
+}
+ul{
+    color: #3700ff;
+    font-family:"Comic Sans MS", cursive;
+}
