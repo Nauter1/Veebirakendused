@@ -6,7 +6,7 @@
   <link rel="styleSheet"  href="ankeetStyle.css">
 </head>
 <body>
-<h1>IT-Erialane küsimustik</h1>
+<h1>Õpilase Registreerimisvorm</h1>
 <form name="ankeet">
   <!-- lühitekst -->
   <fieldset>
@@ -40,7 +40,7 @@
     <br>
     <label for="tel">Mobiiltelefon:</label>
     <br>
-    <input type="tel" name="telefon" id="tel" pattern="\+372[0-9]{7,8}">
+    <input type="tel" name="telefon" id="tel" pattern="^\+372\s?\d{7,8}$" placeholder="+372 51234567" required>
     <br>
     <label for="address">Aadress:</label>
     <br>
