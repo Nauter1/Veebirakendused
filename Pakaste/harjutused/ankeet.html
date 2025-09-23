@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <title>Vormid ja nupud HTML keeles</title>
     <link rel="styleSheet"  href="ankeetStyle.css">
+    <script src="lugemineScript.js"></script>
 </head>
 <body>
 <h1>IT-Erialane küsimustik</h1>
 <form name="ankeet">
     <!-- lühitekst -->
     <label for="nimi">Sisesta oma nimi:</label>
-    <input type="text" name="nimi" id="nimi">
+    <input type="text" name="nimi" id="nimi" oninput="tervitus()">
+    <div id="vastus"></div>
     <br>
     <br>
     <!-- Ripploend -->
@@ -26,7 +28,7 @@
     <br>
     <!-- numbriväli -->
     <label for="aastat">Mitu aastat sa plaanid õppida IT erialat?</label>
-    <input type="number" name="aastat" id="aastat" min="0" max="6">
+    <input type="number" name="aastat" id="aastat" min="0" max="6" oninput="tervitus()">
     <br><br>
     <fieldset>
         <legend>Mis programeerimise keeli sa õpid?</legend>
@@ -83,22 +85,22 @@
     <br><br>
     <fieldset>
         <legend>Mitu rida sinu projekt tavaliselt on? (1-1000)</legend>
-        <input type="range" name="color" id="range" min="1" max="1000" step="1">
+        <input type="range" name="projekt" id="range" min="1" max="1000" step="1">
     </fieldset>
     <br><br>
     <fieldset>
         <legend>Mis on sinu email?</legend>
-        <input type="email" name="color" id="email">
+        <input type="email" name="email" id="email">
     </fieldset>
     <br><br>
     <fieldset>
         <legend>Mis on lemmik veebileht?</legend>
-        <input type="url" name="color" id="url">
+        <input type="url" name="url" id="url">
     </fieldset>
     <br><br>
     <fieldset>
         <legend>Mis on sinu telefoninumber?</legend>
-        <input type="tel" name="color" id="telefon">
+        <input type="tel" name="telefon" id="telefon">
     </fieldset>
     <br><br>
     <fieldset>

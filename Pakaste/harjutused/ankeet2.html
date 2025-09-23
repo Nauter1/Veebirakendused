@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vormid ja nupud HTML keeles</title>
+  <link rel="styleSheet"  href="ankeetStyle.css">
+</head>
+<body>
+<h1>IT-Erialane küsimustik</h1>
+<form name="ankeet">
+  <!-- lühitekst -->
+  <fieldset>
+    <legend>Isikuandmed</legend>
+    <label for="eesnimi">Eesnimi:</label>
+    <br>
+    <input type="text" name="eesnimi" id="eesnimi" maxlength="30" required placeholder="nt Mario">
+    <br>
+    <label for="perenimi">Perenimi:</label>
+    <br>
+    <input type="text" name="perenimi" id="perenimi" maxlength="30" required placeholder="nt Metshein">
+    <br>
+    <label for="birthdate">Sünnikuupäev:</label>
+    <br>
+    <input type="date" name="birthdate" id="birthdate" required min="1950-01-01" max="2025-12-31" value="1980-01-01">
+    <br>
+    <div>Sugu</div>
+    <input type="radio" name="sugu" id="naine">
+    <label for="naine">Naine</label>
+    <input type="radio" name="sugu" id="mees">
+    <label for="mees">Mees</label>
+    <input type="radio" name="sugu" id="muu">
+    <label for="muu">Muu</label>
+  </fieldset>
+  <br><br>
+  <fieldset>
+    <legend>Kontakt</legend>
+    <label for="email">E-post:</label>
+    <br>
+    <input type="email" name="email" id="email" maxlength="100" required placeholder="nt nimi@kool.ee">
+    <br>
+    <label for="tel">Mobiiltelefon:</label>
+    <br>
+    <input type="tel" name="telefon" id="tel" pattern="\+372[0-9]{7,8}">
+    <br>
+    <label for="address">Aadress:</label>
+    <br>
+    <textarea name="address" id="address" cols="30" rows="5" placeholder="Tänav, maja, korter"></textarea>
+    <br>
+    <label for="linn">Linn/Asula:</label>
+    <br>
+    <input type="text" name="linn" id="linn" maxlength="30" required placeholder="nt Tallinn">
+    <br>
+    <label for="postindex">Postiindeks:</label>
+    <br>
+    <input type="text" name="postindex" id="postindex" minlength="5" maxlength="5" placeholder="nt 10111" pattern="^\{5}$">
+    <br>
+    <label for="riik">Postiindeks:</label>
+    <br>
+    <input type="text" name="riik" id="riik" value="Eesti" readonly>
+  </fieldset>
+  <fieldset>
+    <legend>Muu info</legend>
+    <div>Huvialad</div>
+    <br>
+    <input type="checkbox" name="hobby" id="joonistamine">
+    <label for="joonistamine">Joonistamine</label>
+    <br>
+    <input type="checkbox" name="hobby" id="laulmine">
+    <label for="laulmine">Laulmine</label>
+    <br>
+    <input type="checkbox" name="hobby" id="tantsimine">
+    <label for="tantsimine">Tantsimine</label>
+    <br>
+    <input type="checkbox" name="hobby" id="kokkamine">
+    <label for="kokkamine">Kokkamine</label>
+    <br>
+    <input type="checkbox" name="hobby" id="muu2">
+    <label for="muu2">Muu:</label>
+    <input type="text" name="muuhobby" id="muu3" maxlength="30" placeholder="täpsusta (kuni 30 märki)">
+    <br>
+    <br>
+    <label for="url">Isiklik veebileht:</label>
+    <br>
+    <input type="url" name="color" id="url" placeholder="https://minuleht.ee" >
+    <br>
+    <br>
+    <label for="color">Eelistatud teemavärv</label>
+    <br>
+    <input type="color" name="color" id="color">
+    <br>
+    <br>
+    <label for="file">Dokumendid (PDF või pilt)</label>
+    <br>
+    <input type="file" name="file" id="file" accept=".pdf,.png,.jpg,.jpeg">
+  </fieldset>
+  <br><br>
+  <fieldset>
+    <legend>Nõustumine</legend>
+    <input type="checkbox" name="nõustumine" id="nõustumine">
+    <label for="nõustumine">Kinnitan, et esitatud andmed on õiged ja luban nende töötlemist vastavalt kooli tingimustele</label>
+    <br>
+  </fieldset>
+  <br>
+  <input type="reset" value="Loobu" id="loobu">
+  <input type="submit" value="Salvesta" id="salvesta">
+</form>
+
+</body>
+</html>
