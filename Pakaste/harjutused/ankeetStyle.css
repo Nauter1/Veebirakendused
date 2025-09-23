@@ -1,0 +1,44 @@
+
+h1 {
+    width: 40%;
+    border-right: 2px solid #008cff;
+    border-bottom: 1px solid #0059ff;
+    border-radius: 60px;
+    padding: 2%;
+    text-align: center;
+}
+
+fieldset{
+    width:300px;
+    border-radius:10px;
+}
+legend, label{
+    font-weight: bold;
+    font-family: Verdana sans-serif;
+}
+
+input[type=text], input[type=number]{
+    padding:5px;
+    border-radius: 10px;
+    border-bottom:2px solid #dc143c;
+    border-left:2px solid #00aaff;
+    border-top: 2px solid #ffd700;
+    border-right:2px solid #32cd32;
+}
+
+button{
+    width:150px;
+    height:50px;
+}
+
+button img{
+    width:25px;
+    height:10px;
+}
+
+fieldset{
+    border-bottom:2px solid #dc143c;
+    border-left:2px solid #00aaff;
+    border-top: 2px solid #ffd700;
+    border-right:2px solid #32cd32;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormid ja nupud HTML keeles</title>
+    <link rel="styleSheet"  href="ankeetStyle.css">
+</head>
+<body>
+<h1>IT-Erialane küsimustik</h1>
+<form name="ankeet">
+    <!-- lühitekst -->
+    <label for="nimi">Sisesta oma nimi:</label>
+    <input type="text" name="nimi" id="nimi">
+    <br>
+    <br>
+    <!-- Ripploend -->
+    <label for="eriala">Mis eriala oled valinud?</label>
+    <select name="eriala" id="eriala">
+        <option value="">Vali...</option>
+        <option value="tarkvaraarendaja">Noorem Tarkvaraarendaja</option>
+        <option value="IT Spetsialist">IT-Spetsialist</option>
+        <option value="Logistika">Logistik</option>
+        <option value="rätsep">Rätsep</option>
+    </select>
+    <br>
+    <br>
+    <!-- numbriväli -->
+    <label for="aastat">Mitu aastat sa plaanid õppida IT erialat?</label>
+    <input type="number" name="aastat" id="aastat" min="0" max="6">
+    <br><br>
+    <fieldset>
+        <legend>Mis programeerimise keeli sa õpid?</legend>
+        <!-- valikud/checkbox -->
+        <input type="checkbox" name="progeerimine" id="Python">
+        <label for="Python">Python</label>
+        <input type="checkbox" name="progeerimine" id="java">
+        <label for="java">Java</label>
+        <input type="checkbox" name="progeerimine" id="c++">
+        <label for="c++">C++</label>
+        <input type="checkbox" name="progeerimine" id="c#">
+        <label for="c#">C#</label>
+    </fieldset>
+    <br><br>
+    <!-- radio nupp -->
+    <fieldset>
+        <legend>Millises keeles sa kirjutad HTML / CSS Käsud?</legend>
+        <input type="radio" name="keel" id="eesti">
+        <label for="eesti">Eesti</label>
+        <br>
+        <input type="radio" name="keel" id="inglise">
+        <label for="inglise">Inglise</label>
+        <br>
+        <input type="radio" name="keel" id="vene">
+        <label for="vene">Vene</label>
+        <br>
+        <input type="radio" name="keel" id="soome">
+        <label for="soome">Soome</label>
+        <br>
+        <input type="radio" name="keel" id="kõik">
+        <label for="kõik">Kõik sobivad</label>
+    </fieldset>
+    <br><br>
+    <label for="info">Kirjuta mida tead IT erialast:</label>
+    <br>
+    <textarea name="info" id="info" cols="30" rows="5" minlength="20">
+        Vähemalt 20 sõnu.
+    </textarea>
+    <br><br>
+    <fieldset>
+        <legend>Mis värvi on HTML logo?</legend>
+        <input type="color" name="color" id="color">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Millal kooli lõpetad?</legend>
+        <input type="date" name="date" id="date">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Kas soovid näidata tööd?</legend>
+        <input type="file" name="file" id="file">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Mitu rida sinu projekt tavaliselt on? (1-1000)</legend>
+        <input type="range" name="color" id="range" min="1" max="1000" step="1">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Mis on sinu email?</legend>
+        <input type="email" name="color" id="email">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Mis on lemmik veebileht?</legend>
+        <input type="url" name="color" id="url">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Mis on sinu telefoninumber?</legend>
+        <input type="tel" name="color" id="telefon">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Mis on sinu arvatest tugev parool?</legend>
+        <input type="password" name="color" id="password">
+    </fieldset>
+    <br><br>
+    <!--<input type="reset" value="Loobu" id="loobu">
+    <input type="submit" value="Salvesta" id="salvesta">-->
+    <button type="submit">
+        Sisesta
+    </button>
+    <button type="reset">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZZiziQyKeIn6jFmFttNOOMENSJQFtV9G2Q&s" alt="reset button">
+    </button>
+</form>
+
+</body>
+</html>
