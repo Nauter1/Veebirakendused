@@ -1,0 +1,70 @@
+h1{
+    color: #2b2b2b; /* teksti värv */
+}
+
+html{
+background-color: #addeff;
+}
+
+header, footer{
+    font-family:verdana;
+    font-size:large;
+    width: 60%;
+    border: 3px #404040 dotted;
+    background-color: #63639e;
+    border-radius: 10px;
+    padding:0%; /* vahe teksti ja piiri vahel*/
+}
+
+footer#default{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer#eriline{
+
+}
+
+nav ul{
+    list-style-type:none;
+    text-align:center ;
+    margin:2%;
+    padding:0;
+    border: 3px #404040 dotted;
+    border-radius: 16px;
+}
+nav li{
+    text-align:center ;
+    padding:16px;
+}
+
+main {
+    margin: 40px;
+    padding:1%;
+}
+
+nav a:hover{
+    background-color: #63639e;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a{
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    border: 2px solid #3700ff;
+    border-right: 2px solid #009dff;
+    border-bottom: 2px solid #009dff;
+    border-radius: 30px;
+    text-align: center;
+    background-color:#adeeff;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: auto;
+    align-content: center;
+}
+
