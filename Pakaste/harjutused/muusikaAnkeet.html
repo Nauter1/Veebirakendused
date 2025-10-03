@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika Küsitlus</title>
+    <link rel="styleSheet"  href="ankeetStyle.css">
+    <script src="muusikaScript.js"></script>
+</head>
+<body>
+<h1>Muusika küsitlus</h1>
+<form action="">
+        <fieldset>
+        <legend>Milliseid muusikuid/ansambleid sa tead?</legend>
+        <input type="checkbox" name="ansambel" id="abba" value="ABBA" onchange="valiAnsambel()">
+        <label for="abba">ABBA</label>
+        <br>
+        <input type="checkbox" name="ansambel" id="beatle" value="The Beatles" onchange="valiAnsambel()"/>
+        <label for="beatle">The Beatles</label>
+        <br>
+        <input type="checkbox" name="ansambel" id="system" value="System of Down" onchange="valiAnsambel()"/>
+        <label for="system">System of Down</label>
+        <br>
+            <input type="checkbox" name="ansambel" id="viismiinus" value="5MIINUST" onchange="valiAnsambel()"/>
+            <label for="viismiinus">5MIINUST</label>
+            <br>
+        <div id="vastus"></div>
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+        <legend>Mida arvad muusika kuulamisest koolis?</legend>
+        <br>
+        <textarea name="arvamus" id="arvamus" cols="30" rows="5" placeholder="Sisesta text" onchange="arvamusAnsambel()"></textarea>
+        <div id="arvamusresponse"></div>
+    </fieldset>
+</form>
+<br>
+<form action="">
+    <fieldset>
+        <legend>Mitu tundi päevas sa kuulad muusikat?</legend>
+        <br>
+        <input type="number" name="tunnid" id="tunnid" min="0" oninput="tunnidAnsambel()">
+        <div id="tunnidresponse"></div>
+    </fieldset>
+</form>
+<br>
+<form action="">
+    <fieldset>
+        <legend>Kas sa kuulad raadiot?</legend>
+        <br>
+        <input type="radio" name="raadio" id="jah" onclick="raadioAnsambel()">
+        <label for="jah">Jah</label>
+        <input type="radio" name="raadio" id="ei" onclick="raadioAnsambel()">
+        <label for="ei">Ei</label>
+        <div id="raadioresponse"></div>
+    </fieldset>
+</form>
+<br>
+<form action="">
+    <fieldset>
+        <legend>Milliseid raadiojaamu oskad nimetada?</legend>
+        <br>
+        <input type="text" name="loetelu" id="loetelu" required onchange="loeteluAnsambel()">
+        <div id="loeteluresponse"></div>
+    </fieldset>
+</form>
+<br>
+<form action="">
+    <fieldset>
+        <legend>Millist muusikat sa kõige rohkem kuulad?</legend>
+        <br>
+        <input type="radio" name="rohkem" id="classic" onclick="rohkemAnkeet()">
+        <label for="classic">Classic</label>
+        <input type="radio" name="rohkem" id="swing" onclick="rohkemAnkeet()">
+        <label for="swing">Swing</label>
+        <input type="radio" name="rohkem" id="electro" onclick="rohkemAnkeet()">
+        <label for="electro">Electro</label>
+        <input type="radio" name="rohkem" id="dubstep" onclick="rohkemAnkeet()">
+        <label for="dubstep">Dubstep</label>
+        <input type="radio" name="rohkem" id="tradition" onclick="rohkemAnkeet()">
+        <label for="tradition">Traditsiooniline</label>
+        <input type="radio" name="rohkem" id="rock" onclick="rohkemAnkeet()">
+        <label for="rock">Rock</label>
+        <div id="rohkemresponse"></div>
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>Kokkuvõte</legend>
+        <input type="reset" value="Puhasta" id="loobu" onclick="ResetAnsambel()">
+        <input type="button" value="Saada" id="salvesta" onclick="FinalAnsambel()" >
+        <div id="valikvastus"></div>
+        <div id="finalarvamusresponse"></div>
+        <div id="finaltunnidresponse"></div>
+        <div id="finalraadioresponse"></div>
+        <div id="finalloeteluresponse"></div>
+        <div id="finalrohkemresponse"></div>
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
