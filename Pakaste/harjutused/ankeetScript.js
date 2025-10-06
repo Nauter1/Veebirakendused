@@ -43,7 +43,7 @@ function colorAnkeet(){
     colorresponse.style.color=color.value;
 }
 
-function nõustumineAnkeet(){
+function n6ustumineAnkeet(){
     let nõustumine = document.getElementById("nõustumine");
     let nõustumresponse=document.getElementById("nõustumresponse");
     if(nõustumine.checked){
