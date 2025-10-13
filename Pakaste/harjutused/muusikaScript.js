@@ -186,38 +186,38 @@ function FinalAnsambel(){
 
 
 
-    vastus.innerHTML="Sinu valitud muusikud: "+valik;
+    vastus.innerHTML="Millised muusikuid/ansambleid sa tead? Sinu valitud muusikud: "+valik;
 
-    arvamusresponse.innerHTML="Sinu arvamus:  "+arvamus.value;
+    arvamusresponse.innerHTML="Mida arvad muuisika kuulamisest koolis? Sinu arvamus:  "+arvamus.value;
 
-    tunnidresponse.innerHTML="Sa kuulad muusikat "+ +tunnid.value + " tundi päevas";
+    tunnidresponse.innerHTML="Mitu tundi päevas sa kuulad muusikat? Sa kuulad muusikat "+ +tunnid.value + " tundi päevas";
 
     if (jah.checked){
-        raadioresponse.innerText="Raadio Kuulamine: Jah";
+        raadioresponse.innerText="Kas sa kuulad Raadiot? Sinu vastus: Jah";
     }
     if (ei.checked){
-        raadioresponse.innerText="Raadio Kuulamine: Ei";
+        raadioresponse.innerText="Kas sa kuulad Raadiot? Sinu vastus: Ei";
     }
 
-    loeteluresponse.innerHTML="Sinu nimetatud jaamad:  "+loetelu.value;
+    loeteluresponse.innerHTML="Milliseid raadiojaamu oskad nimetada? Sinu nimetatud jaamad:  "+loetelu.value;
 
     if (classic.checked){
-        rohkemresponse.innerText="Sinu vastus: Klassikaline muusika";
+        rohkemresponse.innerText="Millist muusikat sa kõige rohkem kuulad? Sinu vastus: Klassikaline muusika";
     }
     if (swing.checked){
-        rohkemresponse.innerText="Sinu vastus: Swing muusika";
+        rohkemresponse.innerText="Millist muusikat sa kõige rohkem kuulad? Sinu vastus: Swing muusika";
     }
     if (electro.checked){
-        rohkemresponse.innerText="Sinu vastus: Electro muusika";
+        rohkemresponse.innerText="Millist muusikat sa kõige rohkem kuulad? Sinu vastus: Electro muusika";
     }
     if (dubstep.checked){
-        rohkemresponse.innerText="Sinu vastus: Dubstep muusika";
+        rohkemresponse.innerText="Millist muusikat sa kõige rohkem kuulad? Sinu vastus: Dubstep muusika";
     }
     if (tradition.checked){
-        rohkemresponse.innerText="Sinu vastus: Traditsiooniline muusika";
+        rohkemresponse.innerText="Millist muusikat sa kõige rohkem kuulad? Sinu vastus: Traditsiooniline muusika";
     }
     if (rock.checked){
-        rohkemresponse.innerText="Sinu vastus: Rock muusika";
+        rohkemresponse.innerText="Millist muusikat sa kõige rohkem kuulad? Sinu vastus: Rock muusika";
     }
 
 
