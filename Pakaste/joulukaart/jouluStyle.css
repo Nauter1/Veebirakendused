@@ -1,0 +1,7 @@
+canvas#kaart{
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: midnightblue;
+}
