@@ -1,0 +1,40 @@
+canvas#kaart{
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: midnightblue;
+
+}
+
+canvas { text-align:center; margin: auto; }
+
+input{
+    border: 3px solid lightblue;
+    border-radius: 16px;
+    background-color: midnightblue;
+    color: white;
+}
+input#puhasta{
+    border: 3px solid pink;
+    border-radius: 16px;
+    background-color: darkred;
+    color: white;
+}
+h1{
+    border-radius: 5px;
+    border: 5px solid lightblue;
+    background-color: midnightblue;
+    color: white;
+    width: 500px
+}
+h3{
+    border-radius: 5px;
+    border: 5px solid lightblue;
+    background-color: midnightblue;
+    color: white;
+    width: 300px
+}
+*{
+    background-color: steelblue;
+}
